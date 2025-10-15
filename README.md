@@ -212,30 +212,26 @@
             <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-2xl">
                 <h2 class="text-4xl font-bold text-center mb-12 text-white border-b-2 border-accent-color/50 pb-2 inline-block mx-auto">Contact Rapid</h2>
                 <p class="text-center text-soft-text mb-8">
-                    Pentru întrebări despre produse, stocuri sau comenzi personalizate, te rugăm să ne contactezi.
+                    Pentru întrebări despre produse, stocuri sau comenzi personalizate, te rugăm să ne contactezi direct.
                 </p>
 
-                <!-- Mock Contact Form -->
-                <form class="space-y-6 p-8 rounded-xl shadow-2xl bg-secondary-dark/75 border border-gray-700">
-                    <div>
-                        <label for="nume" class="block text-sm font-medium text-soft-text mb-1">Numele Tău</label>
-                        <input type="text" id="nume" name="nume" placeholder="Ex: Ion Popescu" class="w-full p-3 bg-primary-dark border border-gray-600 rounded-lg focus:ring-accent-color focus:border-accent-color transition duration-300">
-                    </div>
-                    <div>
-                        <label for="email" class="block text-sm font-medium text-soft-text mb-1">Email</label>
-                        <input type="email" id="email" name="email" placeholder="contact@exemplu.ro" class="w-full p-3 bg-primary-dark border border-gray-600 rounded-lg focus:ring-accent-color focus:border-accent-color transition duration-300">
-                    </div>
-                    <div>
-                        <label for="mesaj" class="block text-sm font-medium text-soft-text mb-1">Mesaj</label>
-                        <textarea id="mesaj" name="mesaj" rows="4" placeholder="Întrebarea sau solicitarea ta..." class="w-full p-3 bg-primary-dark border border-gray-600 rounded-lg focus:ring-accent-color focus:border-accent-color transition duration-300"></textarea>
-                    </div>
-                    <button type="submit" class="w-full px-6 py-3 text-lg font-semibold bg-accent-color text-primary-dark rounded-lg hover:bg-orange-500 transition duration-300 transform hover:scale-[1.01]">
-                        Trimite Mesajul
-                    </button>
-                    <p class="text-center text-xs text-gray-500 pt-2">
-                        *Acest formular este doar un model; funcționalitatea de trimitere ar necesita cod suplimentar pe server.
+                <!-- REAL CONTACT SECTION (MAILTO LINK) -->
+                <div class="space-y-6 p-8 rounded-xl shadow-2xl bg-secondary-dark/75 border border-gray-700 text-center">
+                    <p class="text-lg font-medium text-white">
+                        Ne poți contacta oricând la adresa de email:
                     </p>
-                </form>
+                    <a href="mailto:comenzi@invertoare-camioane.ro" class="inline-block px-8 py-3 text-xl font-extrabold bg-accent-color text-primary-dark rounded-lg hover:bg-orange-500 transition duration-300 transform hover:scale-[1.01] shadow-xl">
+                        comenzi@invertoare-camioane.ro
+                    </a>
+                    <p class="text-soft-text pt-4">
+                        (Click pe adresă pentru a deschide aplicația de email)
+                    </p>
+                    <p class="text-lg font-medium text-white pt-4">
+                        Sau telefonic: <span class="text-accent-color font-extrabold">07XX XXX XXX</span>
+                    </p>
+                </div>
+                <!-- END REAL CONTACT SECTION -->
+
             </div>
         </section>
 
